@@ -50,7 +50,6 @@ boot_iso {
     model    = "virtio"
     bridge   = var.bridge_wan
     firewall = false
-    vlan_tag = var.lan_vlan_tag
   }
 
   vga {

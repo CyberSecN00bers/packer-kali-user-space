@@ -40,11 +40,6 @@ variable "bridge_wan" {
   default = env("PACKER_BRIDGE_WAN")
 }
 
-variable "lan_vlan_tag" {
-  type    = number
-  default = 0
-}
-
 variable "ssh_public_key" {
   type    = string
   default = env("PACKER_SSH_PUBLIC_KEY")
