@@ -10,6 +10,10 @@ build {
   }
 
   # User stack + provision script
+  provisioner "shell" {
+    inline = ["mkdir -p /tmp/capstone-userstack"]
+  }
+
   provisioner "file" {
     source      = "files/userstack/"
     destination = "/tmp/capstone-userstack"
