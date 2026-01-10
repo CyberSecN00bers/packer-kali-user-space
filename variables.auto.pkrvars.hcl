@@ -14,8 +14,8 @@ template_vm_id       = 9002
 template_name        = "tpl-kali-xfce"
 template_description = "Kali XFCE (Capstone)"
 
-cores              = 2
-memory             = 4096
+cores              = 4
+memory             = 6144
 ballooning_minimum = 0
 disk_size          = "30G"
 
