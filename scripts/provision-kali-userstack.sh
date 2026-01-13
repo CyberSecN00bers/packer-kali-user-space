@@ -21,7 +21,8 @@ echo "[2/9] Install Cloud-init, VNC & Docker"
 apt-get install -y --no-install-recommends \
   ca-certificates curl gnupg lsb-release jq unzip \
   docker.io docker-compose-plugin \
-  cloud-init tigervnc-standalone-server dbus-x11
+  cloud-init tigervnc-standalone-server dbus-x11 \
+  kali-tools-web
 
 systemctl enable --now docker
 
